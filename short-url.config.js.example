@@ -1,0 +1,18 @@
+module.exports = {
+  // Rename this file to short-url.config.js
+
+  // app_name: The name of the app which is displayed on the page title
+  app_name: '',
+
+  // app_url: The URL that your app will be hosted. Generating a link prefixes this to the /to/<id>
+  // Example: https://example.com/
+  app_url: '',
+
+  // app_port: Port that the server will be running on
+  // This is for manual deployment only. The Dockerfile will use 8080 as the internal port
+  app_port: 8080,
+
+  // mongodb_uri: The Mongoose URI parameter: https://mongoosejs.com/docs/connections.html
+  // Example: mongodb+srv://<user>:<password>@<database host>
+  mongodb_uri: '',
+}

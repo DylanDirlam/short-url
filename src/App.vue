@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <section class="app">
+    <Logo />
+    <Title />
+    <Description />
+    <LinkForm />
+  </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Logo from './assets/Logo'
+import Title from './components/Title'
+import Description from './components/Description'
+import LinkForm from './components/LinkForm'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Logo,
+    Title,
+    Description,
+    LinkForm,
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import './resources/styles.scss';
 </style>
