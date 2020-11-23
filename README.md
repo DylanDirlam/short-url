@@ -2,6 +2,8 @@
 
 > A simple MEVN application for shortening URLs. Paste or type a link and a masked/shortened link is instantly generated.
 
+![Sample GIF](https://i.imgur.com/sjHPy0Q.gif)
+
 ## Setup 🛠
 
 ### Option A) Build as Docker Image 🐳
